@@ -9,8 +9,8 @@ let over = false
 
 function setup(){
 	createCanvas(600, 700)
-	plats.push(new Platform())
 	frameRate(120)
+	plats.push(new Platform())
 	jumper = new Jumper(plats[0].x + (plats[0].len / 2) - 10, plats[0].y)
 }
 
